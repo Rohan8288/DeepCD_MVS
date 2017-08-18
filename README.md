@@ -6,15 +6,7 @@
 
 # usage
 
-1. dataProcess.m : extract patches from the MVS dataset
-    
-    or you can directly use the pre-extracted patches
-
-<pre>
-    dataProcess (run in matlab)
-</pre>
-    
-2. extract.sh : extract features from patches by CNN-based models
+1. extract.sh : extract features from patches by CNN-based models
 
     or you can directly use the pre-extracted features
     
@@ -22,7 +14,7 @@
     bash extract.sh
 </pre>
     
-3. result.m : evaluate the features extractes by CNN-based models
+2. result.m : evaluate the features extractes by CNN-based models
 
 <pre>
     result (run in matlab)
